@@ -5,7 +5,7 @@ Reference: // https://ephemeral.cx/2014/09/a-dead-simple-webrtc-example/
 
 # Notes
 Objective of this POC is to understand the WebRTC APIs of HTML5. 
-This POC uses node.js as backend for serving the html client page (port 3000) for streaming video and also creates a basic signalling server over websocket (port 3434)
+This POC uses node.js as backend for serving the html client page (port 3000) for displaying local and remote videos. Another websocket server is used as a basic signalling server (port 3434)
 
 # Setup and Running POC
 1. Go to server-and-client folder
